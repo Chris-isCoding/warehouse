@@ -15,6 +15,8 @@ namespace Warehouse
 
             var choice = Console.ReadLine();
             Console.WriteLine($"You have chosen option number: {choice}");
+
+            int.TryParse(choice, out var chosenOption);
         }
     }
 }
